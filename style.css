@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;700&display=swap");
 
 body{
     font-family: Roboto, sans-serif;
@@ -25,7 +25,7 @@ a{
     color: white;
 }
 
-a, .text{
+a, .text, .text-c4{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -36,55 +36,146 @@ a, .text{
 
 .container1, .footer{
     background: #1F2937;
-    padding: 0 100px;
+    padding: 0 250px;
 }
 
 .container1{
+    padding-top: 16px;
     padding-bottom: 50px;
 }
 
 .subcontainer1{
     display: flex;
     gap: 16px;
-    
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .logo{
-    font-size: 24px;
-    color: #F9FAF8;
+    width: 100px;
+    height: auto;
 }
 
 .main-text{
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
 }
 
-.con1-left{width: 400px;}
+.con1-left{
+    max-width: 850px;
+}
 
 .con1-right{
     align-self: center;
 }
 
 button{
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: #3882F6;
     border-radius: 5px;
     color: white;
     padding: 4px 12px;
 }
 
+.sign-up{
+    border: 1px solid royalblue;
+}
+
 .photo1{
-    width: 300px;
-    height: 180px;
+    width: 500px;
+    height: 280px;
     border: 2px solid royalblue;
     border-radius: 8px;
 }
 
+.container2{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.con2-heading{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 40px;
+}
 .card-img{
-    width:150px;
-    height: 100px;
+    max-width:300px;
+    height: 150px;
     border: 2px solid royalblue;
     border-radius: 8px;
 }
+
+.cards-group{
+    display: flex;
+    gap:12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    max-width: 300px;
+}
+
+.subtext{
+    font-size: 16px;
+}
+
+.container3{
+    background-color: #E5E7EB;
+    padding: 70px 420px;
+}
+
+.quote{
+    font-size: 26px;
+    font-weight: 200;
+    font-style: italic;
+    max-width: 900px;
+    text-align: center;
+}
+
+.author{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.container4{
+    padding: 80px 250px;
+}
+
+.sign-up-card{
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 50px 170px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sub-heading{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text-c4{
+    max-width: 600px;
+}
+
+.sign-up-c4{
+    border: 1px solid white;
+    align-self: center;
+    flex-shrink: 0;
+}
+
+.footer{
+    padding-top:20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+
 
